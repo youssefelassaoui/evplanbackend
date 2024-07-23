@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.95.0"
+python-dotenv = "^1.0.0"
+uvicorn = "^0.21.1"
+sqlalchemy = "^2.0.7"
+geoalchemy2 = "^0.13.1"
+psycopg2-binary = "^2.9.5"
+gunicorn = "^20.1.0"
+python-keycloak = "^2.15.3"
+geopandas = "0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
